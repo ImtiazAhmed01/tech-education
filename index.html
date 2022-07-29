@@ -20,7 +20,7 @@
     <!-- Header start  -->
     <header class="container">
         <!-- Navbar start -->
-        <nav class="navbar navbar-expand-lg">
+        <nav class="navbar navbar-expand-lg fixed-top bg-light ps-5">
             <div class="container-fluid">
                 <h3 class="ms-4 mt-2">Tech Education</h3>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -30,19 +30,19 @@
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav py-2 ps-5 me-5 mt-2">
                         <li class="nav-item px-3 ">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active" href="#">Courses</a>
+                            <a class="nav-link active" href="#courses">Courses</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active" href="#">Success</a>
+                            <a class="nav-link active" href="#success">Success</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active" href="#">Course Price</a>
+                            <a class="nav-link active" href="#register">Register</a>
                         </li>
                         <li class="nav-item px-3">
-                            <a class="nav-link active" href="#">About Us</a>
+                            <a class="nav-link active" href="#contact">Contact Us</a>
                         </li>
 
                     </ul>
@@ -60,7 +60,7 @@
         <!-- Navbar end  -->
 
         <!-- Slider start  -->
-        <section>
+        <section class="mt-5 pt-5" id="home">
             <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
                 <div class="carousel-inner align-item-center">
                     <div class="carousel-item active" data-bs-interval="10000">
@@ -151,7 +151,7 @@
 
         <!-- Courses section start  -->
 
-        <section class="container">
+        <section class="container" id="courses">
             <div class="row row-cols-2 row-cols-md-1 row-cols-sm-1 ">
                 <div class="d-flex justify-content-between flex-cloumn flex-md-row shadow-sm card mb-3 ms-3"
                     style="max-width: 540px;">
@@ -252,7 +252,7 @@
                 </div>
             </div>
             <div class="d-flex justify-content-center mt-3">
-                <button type="button" class="btn btn-info text-white me-5">See More Courses</button>
+                <button type="button" class="btn btn-info text-white me-5 mb-5">See More Courses</button>
 
             </div>
         </section>
@@ -261,7 +261,7 @@
 
         <!-- Register section start -->
 
-        <section class="container bg bg-info">
+        <section class="container bg bg-info pt-5 pb-5 mb-5" id="register">
             <div class="d-flex mt-5 mb-5">
                 <div class="mt-5 ms-5 mb-5">
                     <h1>Ready to join?</h1>
@@ -313,7 +313,7 @@
         <!-- Register section end-->
 
         <!-- Successfull student section start  -->
-        <section class="container">
+        <section class="container mt-5" id="success">
             <div class="m-2">
                 <h1>
                     <span>
@@ -504,7 +504,7 @@
         <div class="pb-2">
             <p>Privacy Ploicy | Terms of use</p>
         </div>
-        <div class="d-flex justify-content-center pb-5">
+        <div class="d-flex justify-content-center pb-5" id="contact">
             <div class="pe-4">
                 <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-f">
                     </i></a>
@@ -516,6 +516,9 @@
             <div class="pe-4">
                 <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin-in"></i></a>
 
+            </div>
+            <div class="pe-4">
+                <a href="https://www.messenger.com/"><i class="fa-brands fa-facebook-messenger"></i></a>
             </div>
         </div>
     </footer>
